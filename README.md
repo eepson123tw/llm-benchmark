@@ -30,8 +30,6 @@ You can install these dependencies using the `requirements.txt` file.
 pip install -r requirements.txt
 ```
 
-````
-
 ## Usage
 
 ### Generating `requirements.txt`
@@ -91,7 +89,6 @@ The `main.py` script performs the following steps:
 
 The example output includes a markdown table with questions, model-generated answers, and their similarity scores.
 
-```markdown
 # Model Answers and Similarity Scores
 
 ## Model: elyza/Llama-3-ELYZA-JP-8B
@@ -114,7 +111,6 @@ The example output includes a markdown table with questions, model-generated ans
 | ------------------------ | ------------------------------------------------------------------------- | ---------- |
 | 日本の首都はどこですか？ | 日本の首都はどこですか？ 商品 本文: K18YG イエローゴールド パール 真珠... | 0.6993     |
 | 富士山の高さは？         | 富士山の高さは？ 商品 本文: K18YG イエローゴールド パール 真珠...         | 0.7422     |
-```
 
 ## Contributing
 
@@ -123,6 +119,3 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License.
-
-
-````
